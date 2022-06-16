@@ -8,6 +8,7 @@ footer div{
 }
 footer div a {
     color: grey;
+    text-decoration: none;
     
     
 }
@@ -22,12 +23,24 @@ footer{
 footer button {
     width: 100%;
 
-    background: #1d0904;
-    cursor: pointer;
     
-    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 2px solid black;
     border: none;
     font-weight: bold;
     font-size: 1.2rem;
     padding: 0.5em;
+}
+footer button:hover{
+    box-shadow: inset 0px 0px 0px 29px grey;
+    
+}
+h2{
+    margin-top: 40px;
+}
+lilo{
+    
+    
+    width: 30px;
 }

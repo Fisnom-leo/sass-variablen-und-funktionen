@@ -20,6 +20,7 @@ body {
 img {
   width: 200px;
   margin-left: 100px;
+  margin-top: 20px;
 }
 
 form {
@@ -30,6 +31,10 @@ form {
   margin: auto;
   width: 500px;
   gap: 40px;
+}
+
+form h2 {
+  font-size: medium;
 }
 
 input {
@@ -109,6 +114,7 @@ footer div {
 
 footer div a {
   color: grey;
+  text-decoration: none;
 }
 
 footer {
@@ -121,13 +127,25 @@ footer {
 
 footer button {
   width: 100%;
-  background: #1d0904;
   cursor: pointer;
-  color: white;
+  margin-top: 40px;
+  border: 2px solid black;
   border: none;
   font-weight: bold;
   font-size: 1.2rem;
   padding: 0.5em;
+}
+
+footer button:hover {
+  box-shadow: inset 0px 0px 0px 29px grey;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+lilo {
+  width: 30px;
 }
 
 header {
@@ -167,7 +185,7 @@ header {
   border-right: 1px solid gray;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1000px) {
   header {
     display: none;
   }
