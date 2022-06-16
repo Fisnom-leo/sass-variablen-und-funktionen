@@ -1,0 +1,24 @@
+{
+  "name": "sass-variablen-und-funktionen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "struck":"sass -w scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fisnom-leo/sass-variablen-und-funktionen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fisnom-leo/sass-variablen-und-funktionen/issues"
+  },
+  "homepage": "https://github.com/Fisnom-leo/sass-variablen-und-funktionen#readme",
+  "dependencies": {
+    "sass": "^1.52.3",
+    "watch": "^1.0.2"
+  }
+}
